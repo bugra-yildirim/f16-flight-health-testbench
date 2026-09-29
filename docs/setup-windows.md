@@ -35,7 +35,7 @@ python -m pip --version
 code .
 ```
 
-The created environment gave Python 3.12.14 and pip 26.2.1 at `C:\ProgramData\anaconda3\envs\f16-health\python.exe`. In VS Code, use **Python: Select Interpreter** and select `f16-health`; in the integrated terminal, repeat the checks above. The VS Code PowerShell terminal ran the correct Python after manual `conda activate f16-health`, but a screenshot or explicit status-bar check of the selected interpreter is still pending. The `analysis/` directory and plotting dependencies will be added when P03 needs them. The environment file has no machine-specific prefix.
+The created environment gave Python 3.12.14 and pip 26.2.1 at `C:\ProgramData\anaconda3\envs\f16-health\python.exe`. In VS Code, use **Python: Select Interpreter** and select `f16-health`; in the integrated terminal, repeat the checks above. The VS Code PowerShell terminal ran the correct Python after manual `conda activate f16-health`, and the Select Interpreter screenshot confirmed f16-health (3.12.14) on 2026-09-30. The `analysis/` directory and plotting dependencies will be added when P03 needs them. The environment file has no machine-specific prefix.
 
 ## FlightGear protocol
 
