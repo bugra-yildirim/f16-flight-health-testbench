@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+  <generic>
+    <output>
+      <binary_mode>false</binary_mode>
+      <var_separator>tab</var_separator>
+      <line_separator>newline</line_separator>
+      <chunk>
+        <name>elapsed_sec</name>
+        <node>/sim/time/elapsed-sec</node>
+        <type>float</type>
+        <format>%.6f</format>
+      </chunk>
+      <chunk>
+        <name>altitude_msl_ft</name>
+        <node>/position/altitude-ft</node>
+        <type>float</type>
+        <format>%.3f</format>
+      </chunk>
+      <chunk>
+        <name>airspeed_kt</name>
+        <node>/velocities/airspeed-kt</node>
+        <type>float</type>
+        <format>%.3f</format>
+      </chunk>
+      <chunk>
+        <name>heading_deg</name>
+        <node>/orientation/heading-deg</node>
+        <type>float</type>
+        <format>%.3f</format>
+      </chunk>
+      <chunk>
+        <name>throttle_command</name>
+        <node>/controls/engines/engine/throttle</node>
+        <type>float</type>
+        <format>%.4f</format>
+      </chunk>
+    </output>
+  </generic>
+</PropertyList>

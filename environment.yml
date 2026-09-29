@@ -1,0 +1,6 @@
+name: f16-health
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
